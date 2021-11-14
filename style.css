@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+   background-color: #430297;
+  }
+  h1, p{
+    padding:0 15px;
+  }
+
+  .container {
+    height: 450px;
+    width: 450px;    
+    box-shadow: 18px 40px 26px 5px gainsboro;
+    top: 40px; 
+    left: 40px;  
+    border-right: black ;
+        z-index: 100;
+    }
+
+ .background-top{
+  top: 20px;
+  left: 0px;  
+  background-position-y:top;
+ background-position: 5% 5%;  
+ position:absolute; 
+  position: left 0;
+ position: top 0; 
+ z-index: 1;
+ }
+
+ .back-bottom{
+   background-position: 65% 45%; 
+   position:absolute; 
+   position: left 0;
+   position: top 0;
+   z-index: 1;
+ }
+ /* .below{
+  background-color: aqua;
+ } */
+ .background{
+  background-color:aqua;
+ }
+  .top {
+    width: 100%;
+    height: 30%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    /* background-color: navy; */
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  } 
+  .white{
+    color:white;
+  }
+  .black{
+   color:black; 
+  }
+  .white1{
+    width: 100%;
+    height: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:blue;
+    width: 100%;
+    height: 18%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+  }
+
+.mid{
+  height: 10%;
+  width:100%;
+  display: flex;
+  flex-direction: column;	
+ align-items:  center;
+ justify-content: center;
+  align-content: center;  
+  color:black;
+  background-color:navy ;
+}
+.mid-bottom{
+  height: 8%;
+  width:100%;
+  display: flex;
+  flex-direction: column;	
+ align-items:  center;
+ justify-content: center;
+  align-content: center;  
+  color:black;
+  background-color:navy;
+}
+.photo {
+    width: 95px;
+    height: 25%;
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+    background-repeat: no-repeat;
+  
+  } 
+.hyper{
+  color:black;
+  font-weight: bold;
+  text-decoration:none;
+}
+  .mm{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+img {
+  border-radius: 50%;
+  border: 3px solid white;
+  background-position-y: top;
+}
+
+  .footer{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    border-color: black;
+   display: flex;
+    flex-direction: row;	
+    justify-content: center;
+    align-items:  center; 
+    color: black;
+ font-size: 14px;
+ border-bottom-right-radius: 25px;
+ border-bottom-left-radius: 25px;
+}
+
+
+
+.one {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+  
+
+ 
+
+
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
